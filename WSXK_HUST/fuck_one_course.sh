@@ -1,0 +1,14 @@
+curl 'http://wsxk.hust.edu.cn/zxqstudentcourse/zxqcoursesresult.action' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: http://wsxk.hust.edu.cn' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Referer: http://wsxk.hust.edu.cn/zxqstudentcourse/zxqclassroom.action?kcbh=w104520&ggkdl=&markZB=' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H $'Cookie: JSESSIONID=LYqZUGC0WgqRwFeTfxT2BNwkRdGdNHsToPVXzmlR0YIoRTTVk7PO\u0021-251125790; BIGipServerpool_122.205.11.6_80=3003779594.22811.0000' \
+  --data-raw 'kcbh=w104520&kczxf=2.0&ktbh=20201w104520001&ktrl=32&ktrs=32&markZB=&kcmc=%E6%BF%80%E5%85%89%E5%8A%A0%E5%B7%A5%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1%E5%88%B6%E4%BD%9C' \
+  --compressed \
+  --insecure
